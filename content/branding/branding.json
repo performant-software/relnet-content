@@ -4,6 +4,7 @@
   "font_body": "Open Sans",
   "primary_color": "#2C3E50",
   "secondary_color": "#8B6914",
+  "tertiary_color": "#3D5066",
   "header": {
     "logo": "https://raw.githubusercontent.com/performant-software/relnet-content/refs/heads/develop/content/images/branding/relnet-logo.jpg",
     "hide_title": true
