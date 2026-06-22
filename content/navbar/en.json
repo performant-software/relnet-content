@@ -1,3 +1,36 @@
 {
-  "items": []
+  "items": [
+    {
+      "label": "Explore",
+      "options": [
+        {
+          "label": "Places",
+          "href": "/en/search/places"
+        },
+        {
+          "label": "Texts",
+          "href": "/en/search/items"
+        },
+        {
+          "label": "People",
+          "href": "/en/search/people"
+        }
+      ],
+      "_template": "Dropdown"
+    },
+    {
+      "label": "About",
+      "options": [
+        {
+          "label": "About the Project",
+          "href": "/en/pages/About"
+        },
+        {
+          "label": "Project Team",
+          "href": "/en/pages/Team"
+        }
+      ],
+      "_template": "Dropdown"
+    }
+  ]
 }

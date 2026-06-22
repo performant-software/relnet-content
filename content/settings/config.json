@@ -47,10 +47,10 @@
         "title": "name"
       },
       "typesense": {
-        "host": "TYPESENSE_HOST",
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "TYPESENSE_API_KEY",
+        "api_key": "Lcjuz4j7G6Pq9U7Z7TH6dJPejGhcARrl",
         "index_name": "relnet_places",
         "query_by": "name,names",
         "default_sort": "name"
@@ -69,10 +69,10 @@
         "title": "name"
       },
       "typesense": {
-        "host": "TYPESENSE_HOST",
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "TYPESENSE_API_KEY",
+        "api_key": "Lcjuz4j7G6Pq9U7Z7TH6dJPejGhcARrl",
         "index_name": "relnet_items",
         "query_by": "name",
         "default_sort": "name"
@@ -87,10 +87,10 @@
         "title": "name"
       },
       "typesense": {
-        "host": "TYPESENSE_HOST",
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "TYPESENSE_API_KEY",
+        "api_key": "Lcjuz4j7G6Pq9U7Z7TH6dJPejGhcARrl",
         "index_name": "relnet_people",
         "query_by": "name",
         "default_sort": "name"
