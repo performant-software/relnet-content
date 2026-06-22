@@ -12,7 +12,8 @@
     "collections": [
       "paths",
       "posts"
-    ]
+    ],
+    "localize_pages": true
   },
   "core_data": {
     "url": "https://staging.coredata.cloud",
@@ -23,7 +24,8 @@
   "i18n": {
     "default_locale": "en",
     "locales": [
-      "en"
+      "en",
+      "es"
     ]
   },
   "layers": [

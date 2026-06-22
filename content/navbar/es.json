@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "label": "Explorar",
+      "options": [
+        {
+          "label": "Lugares",
+          "href": "/es/search/places"
+        },
+        {
+          "label": "Textos",
+          "href": "/es/search/items"
+        },
+        {
+          "label": "Personas",
+          "href": "/es/search/people"
+        }
+      ],
+      "_template": "Dropdown"
+    },
+    {
+      "label": "Rutas",
+      "href": "/es/paths",
+      "_template": "URL"
+    },
+    {
+      "label": "Publicaciones",
+      "href": "/es/posts",
+      "_template": "URL"
+    },
+    {
+      "label": "Páginas",
+      "options": [
+        {
+          "label": "Acerca del proyecto",
+          "href": "/es/pages/About"
+        },
+        {
+          "label": "Equipo del proyecto",
+          "href": "/es/pages/Team"
+        },
+        {
+          "label": "Metodología",
+          "href": "/es/pages/Methodology"
+        },
+        {
+          "label": "ARS geoespacial",
+          "href": "/es/pages/Geospatial-SNA"
+        },
+        {
+          "label": "Viajes, rutas e itinerarios",
+          "href": "/es/pages/Trips-Routes-and-Itineraries"
+        },
+        {
+          "label": "Tipos de peregrinaciones",
+          "href": "/es/pages/Types-of-Pilgrimages"
+        },
+        {
+          "label": "Participantes humanos y divinos",
+          "href": "/es/pages/Human-and-Divine-Participants"
+        },
+        {
+          "label": "Dimensión política",
+          "href": "/es/pages/Political-Dimension"
+        },
+        {
+          "label": "Redes religiosas en Babilonia",
+          "href": "/es/pages/Religious-Networks-in-Babylon"
+        }
+      ],
+      "_template": "Dropdown"
+    }
+  ]
+}
