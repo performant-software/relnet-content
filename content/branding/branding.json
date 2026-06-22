@@ -5,13 +5,26 @@
   "primary_color": "#2C3E50",
   "secondary_color": "#8B6914",
   "header": {
-    "logo": "RELNET_LOGO_URL"
+    "logo": "https://raw.githubusercontent.com/performant-software/relnet-content/refs/heads/develop/content/images/branding/relnet-logo.jpg",
+    "hide_title": true
   },
   "footer": {
     "allow_login": true,
     "logos": [
       {
-        "image": "UB_LOGO_URL"
+        "image": "https://raw.githubusercontent.com/performant-software/relnet-content/refs/heads/develop/content/images/branding/ub-logo.png",
+        "image_alt": "Universitat de Barcelona",
+        "url": "https://www.ub.edu/"
+      },
+      {
+        "image": "https://raw.githubusercontent.com/performant-software/relnet-content/refs/heads/develop/content/images/branding/pelagios-logo.png",
+        "image_alt": "Pelagios Network",
+        "url": "https://pelagios.org/"
+      },
+      {
+        "image": "https://raw.githubusercontent.com/performant-software/relnet-content/refs/heads/develop/content/images/branding/miciu-funders.jpg",
+        "image_alt": "Funded by the Spanish Ministry of Science, Innovation and Universities (MICIU/AEI) and the European Union NextGenerationEU — Grant PID2022-136740NB-I00",
+        "url": "https://www.ciencia.gob.es/"
       }
     ]
   }
