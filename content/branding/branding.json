@@ -1,10 +1,12 @@
 {
   "title": "RelNet",
   "font_header": "Spectral",
+  "header_font_weight": "700",
   "font_body": "Open Sans",
   "primary_color": "#2C3E50",
   "secondary_color": "#8B6914",
   "tertiary_color": "#5E7286",
+  "content_color": "#1F2A37",
   "header": {
     "logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/relnet-content/branding/relnet-logo.jpg",
     "hide_title": true
