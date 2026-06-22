@@ -19,7 +19,17 @@
       "_template": "Dropdown"
     },
     {
-      "label": "About",
+      "label": "Paths",
+      "href": "/en/paths",
+      "_template": "URL"
+    },
+    {
+      "label": "Posts",
+      "href": "/en/posts",
+      "_template": "URL"
+    },
+    {
+      "label": "Pages",
       "options": [
         {
           "label": "About the Project",
@@ -28,6 +38,34 @@
         {
           "label": "Project Team",
           "href": "/en/pages/Team"
+        },
+        {
+          "label": "Methodology",
+          "href": "/en/pages/Methodology"
+        },
+        {
+          "label": "Geospatial SNA",
+          "href": "/en/pages/Geospatial-SNA"
+        },
+        {
+          "label": "Trips, Routes & Itineraries",
+          "href": "/en/pages/Trips-Routes-and-Itineraries"
+        },
+        {
+          "label": "Types of Pilgrimages",
+          "href": "/en/pages/Types-of-Pilgrimages"
+        },
+        {
+          "label": "Human & Divine Participants",
+          "href": "/en/pages/Human-and-Divine-Participants"
+        },
+        {
+          "label": "Political Dimension",
+          "href": "/en/pages/Political-Dimension"
+        },
+        {
+          "label": "Religious Networks in Babylon",
+          "href": "/en/pages/Religious-Networks-in-Babylon"
         }
       ],
       "_template": "Dropdown"
