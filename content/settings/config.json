@@ -1,8 +1,10 @@
 {
-  "detail_pages": [
-    "items",
-    "people"
-  ],
+  "detail_pages": {
+    "models": {
+      "items": {},
+      "people": {}
+    }
+  },
   "branding": {
     "footer_login": true
   },
@@ -79,6 +81,8 @@
     {
       "name": "people",
       "route": "/people",
+      "type": "list",
+      "geosearch": false,
       "result_card": {
         "title": "name"
       },
