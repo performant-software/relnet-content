@@ -6,24 +6,24 @@
   "secondary_color": "#8B6914",
   "tertiary_color": "#3D5066",
   "header": {
-    "logo": "https://raw.githubusercontent.com/performant-software/relnet-content/refs/heads/develop/content/images/branding/relnet-logo.jpg",
+    "logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/relnet-content/branding/relnet-logo.jpg",
     "hide_title": true
   },
   "footer": {
     "allow_login": true,
     "logos": [
       {
-        "image": "https://raw.githubusercontent.com/performant-software/relnet-content/refs/heads/develop/content/images/branding/ub-logo.png",
+        "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/relnet-content/branding/ub-logo.png",
         "image_alt": "Universitat de Barcelona",
         "url": "https://www.ub.edu/"
       },
       {
-        "image": "https://raw.githubusercontent.com/performant-software/relnet-content/refs/heads/develop/content/images/branding/pelagios-logo.png",
+        "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/relnet-content/branding/pelagios-logo.png",
         "image_alt": "Pelagios Network",
         "url": "https://pelagios.org/"
       },
       {
-        "image": "https://raw.githubusercontent.com/performant-software/relnet-content/refs/heads/develop/content/images/branding/miciu-funders.jpg",
+        "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/relnet-content/branding/miciu-funders.jpg",
         "image_alt": "Funded by the Spanish Ministry of Science, Innovation and Universities (MICIU/AEI) and the European Union NextGenerationEU — Grant PID2022-136740NB-I00",
         "url": "https://www.ciencia.gob.es/"
       }
