@@ -1,0 +1,18 @@
+{
+  "title": "RelNet",
+  "font_header": "Spectral",
+  "font_body": "Open Sans",
+  "primary_color": "#2C3E50",
+  "secondary_color": "#8B6914",
+  "header": {
+    "logo": "RELNET_LOGO_URL"
+  },
+  "footer": {
+    "allow_login": true,
+    "logos": [
+      {
+        "image": "UB_LOGO_URL"
+      }
+    ]
+  }
+}

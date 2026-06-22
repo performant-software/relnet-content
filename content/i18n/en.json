@@ -1,0 +1,10 @@
+{
+  "t_map": "Map",
+  "t_home": "Home",
+  "t_posts": "Posts",
+  "t_root": "Places",
+  "t_index_places": "Places",
+  "t_index_items": "Texts",
+  "t_index_events": "Itineraries",
+  "t_index_people": "People"
+}

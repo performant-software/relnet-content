@@ -1,0 +1,96 @@
+{
+  "detail_pages": [
+    "items",
+    "people"
+  ],
+  "branding": {
+    "footer_login": true
+  },
+  "content": {
+    "collections": [
+      "paths",
+      "posts"
+    ]
+  },
+  "core_data": {
+    "url": "https://staging.coredata.cloud",
+    "project_ids": [
+      "245"
+    ]
+  },
+  "i18n": {
+    "default_locale": "en",
+    "locales": [
+      "en"
+    ]
+  },
+  "layers": [
+    {
+      "name": "Maptiler DataViz Style",
+      "layer_type": "vector",
+      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=2a0c0GtxzItN4bTYHUm3"
+    }
+  ],
+  "search": [
+    {
+      "name": "places",
+      "route": "/places",
+      "geosearch": true,
+      "map": {
+        "geometry": "geometry",
+        "max_zoom": 12,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "TYPESENSE_HOST",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "TYPESENSE_API_KEY",
+        "index_name": "relnet_places",
+        "query_by": "name,names",
+        "default_sort": "name"
+      }
+    },
+    {
+      "name": "items",
+      "route": "/items",
+      "geosearch": true,
+      "map": {
+        "geometry": "09d37064-8e5b-4281-a309-58c90cef8a0c.geometry",
+        "max_zoom": 12,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "TYPESENSE_HOST",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "TYPESENSE_API_KEY",
+        "index_name": "relnet_items",
+        "query_by": "name",
+        "default_sort": "name"
+      }
+    },
+    {
+      "name": "people",
+      "route": "/people",
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "TYPESENSE_HOST",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "TYPESENSE_API_KEY",
+        "index_name": "relnet_people",
+        "query_by": "name",
+        "default_sort": "name"
+      }
+    }
+  ]
+}
