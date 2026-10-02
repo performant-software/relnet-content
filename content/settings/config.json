@@ -2,7 +2,8 @@
   "detail_pages": {
     "models": {
       "items": {},
-      "people": {}
+      "people": {},
+      "places": {}
     }
   },
   "branding": {
@@ -46,7 +47,18 @@
         "zoom_to_place": true
       },
       "result_card": {
-        "title": "name"
+        "title": "name",
+        "attributes": [
+          {
+            "name": "143d356a-0768-4a1a-b634-861d25016b2e.0.name"
+          },
+          {
+            "name": "654c7ddb-9d20-4e57-9e1c-3f34a4de0650.0.name"
+          },
+          {
+            "name": "bff35cf0-e2fb-4a7d-b7c5-2d8a0b712cb0"
+          }
+        ]
       },
       "typesense": {
         "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
@@ -68,7 +80,18 @@
         "zoom_to_place": true
       },
       "result_card": {
-        "title": "name"
+        "title": "name",
+        "attributes": [
+          {
+            "name": "9d50d689-fd04-4257-9a20-c986df77ade6.0.name"
+          },
+          {
+            "name": "09d37064-8e5b-4281-a309-58c90cef8a0c.0.name"
+          },
+          {
+            "name": "b34ecac5-e856-4a26-a420-863206d8e650"
+          }
+        ]
       },
       "typesense": {
         "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
@@ -86,7 +109,18 @@
       "type": "list",
       "geosearch": false,
       "result_card": {
-        "title": "name"
+        "title": "name",
+        "attributes": [
+          {
+            "name": "db00d309-465b-41ce-927c-22a7f205df82"
+          },
+          {
+            "name": "7cb47dd7-1d3f-4639-b18b-d7aa3c343596"
+          },
+          {
+            "name": "3da7fde4-0a1e-4f79-9db3-caa01ea987b4"
+          }
+        ]
       },
       "typesense": {
         "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
@@ -98,5 +132,16 @@
         "default_sort": "name"
       }
     }
-  ]
+  ],
+  "result_filtering": {
+    "exclude": [
+      "029d500f-4064-473b-bad8-c6c41ee2890e",
+      "72e24f0d-c95f-45c2-b83e-463f584065ee",
+      "b90ab20b-b304-4fb8-ad35-b8dd004a1877",
+      "044bf69d-d431-43b8-83dc-80c7ca9c2890",
+      "08e4401c-8607-4738-9011-c5762979cdab",
+      "cc9711a6-9b57-4f3d-8e72-4ef36ff65954",
+      "2d637312-b3f5-4df0-8b6d-9774d860fbe6"
+    ]
+  }
 }
